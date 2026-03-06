@@ -1,0 +1,20 @@
+---
+title: The priordata R package
+output: github_document
+---
+
+# Prior data 
+
+This is an alternative way to include priors in Bayesian models.   In an analysis with prior data:
+
+1. Prior probability judgements for some quantity of interest are converted to a synthetic dataset known as **prior data**.
+
+2. The prior data and the observed data are analysed jointly under a prior that excludes the judgements specified in step 1.  Typically this will be a vague prior.
+
+This technique is particularly useful when we cannot easily elicit priors for the model parameters, but we can elicit a prior for some function of those parameters.  For example, in a parametric survival model, where we can obtain a prior for the survival probability, but not the parameters of the model.
+
+# priordata
+
+The `priordata` package includes tools to aid with constructing and using prior data. 
+
+The methods will be explained fully in a paper, to be made available soon as a preprint.

@@ -1,0 +1,11 @@
+.Rproj.user
+*~
+TODO.md
+docs
+*.o
+*.dll
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
